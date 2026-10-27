@@ -130,6 +130,7 @@
     mail.textContent = META.contactName + " — " + META.contactEmail;
     mail.href = "mailto:" + META.contactEmail;
     $("#footerYear").textContent = new Date().getFullYear();
+    $("#headerYear").textContent = new Date().getFullYear();
     if (ENUMERATOR) document.body.classList.add("is-enumerator");
 
     $("#logos").innerHTML = META.logos.map(l => {
@@ -262,6 +263,8 @@
       const c = META.consent;
       html = `<div class="step-head"><p class="eyebrow">Présentation</p><h2>${esc(META.title)}</h2></div>
         <div class="intro">${META.intro.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+        ${META.draftNote ? `<div class="notice"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M17 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4zm-5 16a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm3-10H5V5h10v4z"/></svg>
+       <div><strong>Enregistrement automatique</strong><p>${esc(META.draftNote)}</p></div></div>` : ""}
         ${(META.introPhotos || []).length ? `<div class="photo-mosaic">${META.introPhotos.map(k => photoFigure(photoByKey(k))).join("")}</div>` : ""}
         <div class="paths">
           <div class="path"><span class="path-tag">Parcours A</span><strong>Gestionnaire ou partenaire d'un site</strong><p>Un questionnaire par AMP, LMMA ou AMCE que votre organisation gère, cogère ou appuie directement.</p></div>

@@ -46,8 +46,8 @@ const SURVEY = {
     "Cette enquête vise à dresser un diagnostic des modèles de gestion des aires marines protégées (AMP), des aires marines gérées localement (LMMA) et des AMCE/OECM à Madagascar : gouvernance, planification, participation des communautés, financement, moyens, contrôle, suivi-évaluation et résultats.",
     "Elle s'adresse aux gestionnaires et cogestionnaires de sites, aux ONG et associations d'appui, aux structures communautaires, aux administrations, aux réseaux, aux opérateurs privés, aux institutions de recherche et aux partenaires techniques et financiers.",
     "Deux parcours sont proposés. Parcours A : vous répondez pour un site précis que votre organisation gère, cogère ou appuie directement — un questionnaire par site (à la fin, vous pourrez enchaîner sur un autre site sans ressaisir votre identification). Parcours B : vous répondez en tant qu'acteur institutionnel ou transversal, sans gestion directe d'un site.",
-    "Vos réponses sont enregistrées automatiquement sur cet appareil : vous pouvez interrompre la saisie et la reprendre plus tard depuis le même navigateur."
   ],
+  "draftNote": "Vos réponses sont enregistrées automatiquement sur cet appareil : vous pouvez interrompre la saisie et la reprendre plus tard depuis le même navigateur.",
   "privacy": "Les informations recueillies servent uniquement à ce diagnostic. Les résultats seront présentés de manière agrégée et anonymisée : aucun site ni aucune organisation ne sera cité nommément sans accord.",
   "consentQ": "q001",
   "siteNameQ": "q008",
@@ -84,7 +84,7 @@ const SURVEY = {
     "key": "peche-diego",
     "src": "assets/img/photos/peche-diego.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/La_p%C3%AAche_dans_la_baie_de_Diego-Suarez.jpg/1280px-La_p%C3%AAche_dans_la_baie_de_Diego-Suarez.jpg",
-    "caption": "Pêcheurs dans la baie des Français, Antsiranana",
+    "caption": "",
     "credit": "JF Design",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:La_p%C3%AAche_dans_la_baie_de_Diego-Suarez.jpg"
@@ -93,7 +93,7 @@ const SURVEY = {
     "key": "pirogue-vezo",
     "src": "assets/img/photos/pirogue-vezo.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pirogue_%C3%A0_balancier.JPG/1280px-Pirogue_%C3%A0_balancier.JPG",
-    "caption": "Pirogue à balancier vezo",
+    "caption": "",
     "credit": "Boosha Afrikaf",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Pirogue_%C3%A0_balancier.JPG"
@@ -102,7 +102,7 @@ const SURVEY = {
     "key": "mangrove-belo",
     "src": "assets/img/photos/mangrove-belo.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mangroves_%2C_Belo_sur_mer%2C_Madagascar.jpg/1280px-Mangroves_%2C_Belo_sur_mer%2C_Madagascar.jpg",
-    "caption": "Mangroves, Belo-sur-Mer",
+    "caption": "",
     "credit": "Cactus0625",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Mangroves_,_Belo_sur_mer,_Madagascar.jpg"
@@ -111,7 +111,7 @@ const SURVEY = {
     "key": "vezo-peche",
     "src": "assets/img/photos/vezo-peche.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Vezo_%C3%A0_la_p%C3%AAche.JPG/1280px-Vezo_%C3%A0_la_p%C3%AAche.JPG",
-    "caption": "Pêcheurs vezo sur une pirogue à balancier",
+    "caption": "",
     "credit": "Boosha Afrikaf",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Vezo_%C3%A0_la_p%C3%AAche.JPG"
@@ -120,7 +120,7 @@ const SURVEY = {
     "key": "village-mahavavy",
     "src": "assets/img/photos/village-mahavavy.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Village_des_p%C3%AAcheurs_le_long_du_fleuve_de_Mahavavy.jpg/1280px-Village_des_p%C3%AAcheurs_le_long_du_fleuve_de_Mahavavy.jpg",
-    "caption": "Village de pêcheurs, aire protégée Mahavavy-Kinkony",
+    "caption": "",
     "credit": "Anai171",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Village_des_p%C3%AAcheurs_le_long_du_fleuve_de_Mahavavy.jpg"
@@ -129,7 +129,7 @@ const SURVEY = {
     "key": "pecheurs-antsiranana",
     "src": "assets/img/photos/pecheurs-antsiranana.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Two_fisherman_VavaLapasy_Antsiranana_Madagascar.jpg/1280px-Two_fisherman_VavaLapasy_Antsiranana_Madagascar.jpg",
-    "caption": "Pêcheurs, Antsiranana",
+    "caption": "",
     "credit": "TinsRad",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Two_fisherman_VavaLapasy_Antsiranana_Madagascar.jpg"
@@ -138,7 +138,7 @@ const SURVEY = {
     "key": "port-tulear",
     "src": "assets/img/photos/port-tulear.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Boutres_et_pirogue_Vezo%2C_port_de_Tul%C3%A9ar%2C_Madagascar_%2826057141635%29.jpg/1280px-Boutres_et_pirogue_Vezo%2C_port_de_Tul%C3%A9ar%2C_Madagascar_%2826057141635%29.jpg",
-    "caption": "Boutres et pirogue vezo, port de Toliara",
+    "caption": "",
     "credit": "krishna naudin",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Boutres_et_pirogue_Vezo,_port_de_Tul%C3%A9ar,_Madagascar_(26057141635).jpg"
@@ -156,7 +156,7 @@ const SURVEY = {
     "key": "recif-acropora",
     "src": "assets/img/photos/recif-acropora.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coral_%28Acropora_clathrata%29%2C_Nosy_Iranja%2C_Madagascar%2C_2025-09-17%2C_DD_53.jpg/1280px-Coral_%28Acropora_clathrata%29%2C_Nosy_Iranja%2C_Madagascar%2C_2025-09-17%2C_DD_53.jpg",
-    "caption": "Acropora clathrata, Nosy Iranja",
+    "caption": "",
     "credit": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Coral_(Acropora_clathrata),_Nosy_Iranja,_Madagascar,_2025-09-17,_DD_53.jpg"
@@ -165,7 +165,7 @@ const SURVEY = {
     "key": "recif-empereurs",
     "src": "assets/img/photos/recif-empereurs.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Grupo_de_peces_emperador_estriados_%28Gnathodentex_aureolineatus%29%2C_Nosy_Kalakajoro%2C_Madagascar%2C_2025-09-14%2C_DD_03.jpg/1280px-Grupo_de_peces_emperador_estriados_%28Gnathodentex_aureolineatus%29%2C_Nosy_Kalakajoro%2C_Madagascar%2C_2025-09-14%2C_DD_03.jpg",
-    "caption": "Empereurs (Gnathodentex aureolineatus), Nosy Kalakajoro",
+    "caption": "",
     "credit": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Grupo_de_peces_emperador_estriados_(Gnathodentex_aureolineatus),_Nosy_Kalakajoro,_Madagascar,_2025-09-14,_DD_03.jpg"
@@ -174,7 +174,7 @@ const SURVEY = {
     "key": "recif-clowns",
     "src": "assets/img/photos/recif-clowns.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Peces_payaso_de_Madagascar_%28Amphiprion_latifasciatus%29_en_una_an%C3%A9mona_perla_de_cristal_%28Heteractis_aurora%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_117.jpg/1280px-Peces_payaso_de_Madagascar_%28Amphiprion_latifasciatus%29_en_una_an%C3%A9mona_perla_de_cristal_%28Heteractis_aurora%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_117.jpg",
-    "caption": "Poissons-clowns de Madagascar, Ambalihabe",
+    "caption": "",
     "credit": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Peces_payaso_de_Madagascar_(Amphiprion_latifasciatus)_en_una_an%C3%A9mona_perla_de_cristal_(Heteractis_aurora),_Ambalihabe,_Madagascar,_2025-09-16,_DD_117.jpg"
