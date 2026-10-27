@@ -29,7 +29,7 @@ const SURVEY = {
   "deadline": "15 Novembre",
   "estimatedTime": "Parcours A : 45 à 60 min · Parcours B : 15 à 20 min",
   "estimatedTimeShort": "15 à 60 min",
-  "appsScriptUrl": "https://script.google.com/macros/s/AKfycbwfA19obdClpaAp5oKM2PY29yFBTOTuJg6I-JVrEPomKsqJsNnovh94t7cae2Dl-DbTvA/exec",
+  "appsScriptUrl": "https://script.google.com/macros/s/AKfycbw4kFLimtvWe-qDDK2suTM2-TRrt-lxBkln6muvG08Z_sONaRcgtFqda6s6RoBPXojC8w/exec",
   "logos": [
     {
       "src": "assets/img/logos/ihsm.png",
